@@ -1,0 +1,271 @@
+/****
+FONTs
+****/
+/*font-family: 'The Girl Next Door', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Oranienbaum', serif;
+font-family: 'Lobster Two', cursive;*/
+/*****************
+GENERAL
+*****************/
+
+body {
+	font-family: 'Oranienbaum', serif;
+	font-size: 1.25em;
+	height: 900px;
+}
+
+#wrapper {
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: #25031F;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+ 	width: 30%;
+  	margin-left: 35%;
+  	margin-right: 35%;
+  	margin-top: 40px;
+  	border: 8px solid #5C0574;
+  	border-radius: 10px
+}
+
+h3 {
+	margin: 0 0 1em 0;
+
+}
+
+li {
+	list-style-type: square;
+	color: #333;
+}
+
+p {
+	color: #333;;
+}
+
+button {
+	font-size: 75px;
+  	font-family: 'Lobster Two', cursive;
+  	color: #5C0574;
+  	background-color: transparent;
+  	border: none;
+  	margin: 10px;
+}
+
+
+/*****************
+HEADING
+*****************/
+
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+	border-bottom: 8px solid #9D79AE;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Lobster Two', cursive;
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+h2 {
+	font-family: 'Oranienbaum', serif;
+	font-size: 1em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}
+.title {
+	font-family: 'Lobster Two', cursive;
+	color: #5D1A74;
+	margin: 5px;
+	font-size: 1em;
+}
+
+
+
+/*****************
+COLORS
+*****************/
+
+/* site body */
+
+body {
+	max-height: 1200px;
+	background-color: #F2E6EE;
+}
+
+
+/* headers */
+
+h1 {
+	color: #FFF;
+}
+
+h2 {
+	color: #9D79AE;
+}
+
+header {
+	background-color: #5C0574;
+}
+
+
+
+/* links */
+
+a {
+	color: #9D79AE;
+}
+
+nav {
+	background-color: #9D79AE;
+}
+
+nav a, nav a:visited  {
+	font-family: 'Oranienbaum', cursive;
+	font-size: 1em;
+	color: #5C0574;
+}
+
+nav a.selected, nav a:hover{
+	color: #FFF;
+}
+
+
+/*****************
+NAVIGATION
+*****************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	padding: 15px 10px;
+}
+
+
+
+/*****************
+FOOTER
+*****************/
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 50px;
+	color: #ccc;
+	clear: both;
+}
+
+/******************
+BUTTONS
+******************/
+#btn-group {
+	margin-left: 30%;
+}
+
+/*****************
+TIMELINE AND HOBBIES
+*****************/
+
+.history-img {
+	margin-left: 10%;
+	border: 5px solid #5C0574;
+}
+
+.randoms-img {
+	margin-left: 60%;
+  	margin-top: -350px;
+	border: 5px solid #5C0574;
+}
+.divider {
+	color: grey;
+	font-family: 'Oranienbaum', sans-serif;
+	margin-left: 15px;
+	font-weight: 100;
+}
+
+#time-line p {
+	font-size: 18px;
+  	font-family: 'The Girl Next Door', cursive;
+  	margin-left: 35%;
+  	margin-right: 35%;
+ }
+
+ #hobbies p {
+ 	font-size: 18px;
+  	font-family: 'The Girl Next Door', cursive;
+  	margin-left: 35%;
+  	margin-right: 35%;	
+ }
+
+ .sources, .sources li {
+ 	color: rgb(152, 143, 143);
+ 	list-style-type: none;
+ }
+
+ .sources {
+ 	margin-top: 75px;
+ }
+
+/*****************
+FUTURE PAGE
+*****************/
+
+#the-future {
+	font-size: 18px;
+	font-family: 'Oranienbaum', serif;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#the-future p {
+	  margin: 0px;
+}
+
+.gif-section {
+	margin-left: -10%;
+	margin-top: 5%;
+}
+
+.gif {
+	height: 258px;
+	width: 480px;
+	border: 5px solid #5C0574;
+	border-radius: 10px;
+}
+
+
+
+
+
+
