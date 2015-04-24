@@ -55,7 +55,7 @@ $(function() {
 
 	// events
 
-	// show timeline/history or randoms/hobbies: 
+	// show timeline/history or randoms/hobbies:
 	selectors.historyBtn.on('click', function() {
 		selectors.timeLine.slideToggle('slow');
 	});
@@ -117,4 +117,4 @@ $(function() {
 		selectors.benDescription.slideToggle('slow');
 	});
 
-}());
+}();
